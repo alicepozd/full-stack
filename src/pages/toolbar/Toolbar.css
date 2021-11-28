@@ -1,0 +1,42 @@
+.toolbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 100%;
+
+    display: 'flex';
+
+    background: #251506;
+}
+
+.link_bar{
+    height: 80px;
+    width: 50%;
+
+    display: 'flex';
+    flexDirection: 'row';
+}
+
+.text{
+    font-size: 25px;
+    color: rgba(243, 228, 172, 0.8);
+    line-height: 70px;
+    margin: 0% 5%;
+}
+
+.icons_bar{
+    position: fixed;
+    display: 'flex';
+    flexDirection: 'row';
+    top: 0px;
+    right: 0px;
+    height: 80px;
+    width: 50%;
+    text-align: right; 
+    padding: 15px 5px;   
+}
+
+.icons{
+    margin: 0 3%;
+}
