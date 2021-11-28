@@ -1,0 +1,33 @@
+.Footer {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background: rgba(33, 23, 3, 0.8);
+    padding:0% 5%;
+
+}
+
+.Block {
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    width: 50%;
+    gap: 15px;
+}
+
+.Contact_header {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.Contacts {
+    top-margin: 33%;
+}
+
+.Contact {
+    font-size: 30px;
+    font-style: italic;
+}
